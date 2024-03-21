@@ -1,0 +1,23 @@
+.social{ 
+    display: flex;
+    justify-content:space-between;
+    gap:12px;
+    margin-left: 45px;
+    margin-right: 45px;
+
+   
+}
+.social > .socialLink{
+ 
+    text-decoration: none;
+    color: rgb(68, 65, 65);
+    font-size: 12px;
+   
+}
+.social > .socialLink:hover{
+    color:  rgb(122, 60, 122);
+}
+
+.copyrighTtext{
+  font-size: 6px;
+}

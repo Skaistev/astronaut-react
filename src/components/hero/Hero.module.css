@@ -1,0 +1,89 @@
+.mainLeft{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 50px;
+    width: 400px;
+    
+
+}
+.mainRight {
+ margin-right: 20px;
+    /* width: 600px; */
+} 
+
+ main > .img {
+    width: 150%
+}
+
+.mainTitle {
+    font-weight:normal;
+    font-size: 40px;
+    font-weight:bold;
+    color: rgb(10, 10, 10);
+    font-weight: bolder;
+}
+
+.mainTitle > span {
+    color:rgb(112, 111, 108);
+    font-weight: normal;
+}
+
+.description{
+   font-size: 12px;
+   width: 240px;
+   color: grey;
+   margin-bottom: 20px;
+   line-height: 140%;
+
+}
+
+.btnList{
+    width: 240px;
+    display: flex;
+    gap:5px;
+    justify-content: space-between;
+}
+.btnList > .btn {
+   
+    border-style: solid;
+    border-width:2px;
+    border-radius: 50px;
+    padding: 10px;
+    width: 130px;
+    text-align: center;
+    text-decoration: none;
+   text-transform: uppercase;
+    font-size: 12px;
+    color:white;
+    background-color: rgb(122, 60, 122);
+    border-color: rgb(122, 60, 122);
+}
+
+.btnList > .btn + .btn{
+    width:100px;
+    background-color: white;
+    color:rgb(122, 60, 122) ;
+    border-color: rgb(122, 60, 122);
+line-height: 116%;
+}
+
+.btnList > .btn:hover{
+    border-color: black;
+    border-style:dotted;
+}
+
+@media (max-width: 800px){
+    .mainRight {
+    padding: 10px;
+    }
+   
+}
+
+@media (max-width: 500px){
+
+    .mainRight {
+        width: 380px;
+    } 
+}
+   
