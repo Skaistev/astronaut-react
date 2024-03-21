@@ -3,23 +3,3 @@
     object-fit: contain;
     height: 30px;
 }
-
-.mainNav { 
-    display: flex;
-    gap: 20px;
- 
-}
-.mainNav > .navLink{ 
-    text-decoration: none;
-    color: black;
-}
-
-.mainNav > .navLink.active {
-    border-color: rgb(240, 179, 47);
-border-bottom-style: solid;
-}
-
-.mainNav > .navLink:hover { 
-    border-bottom: rgb(157, 101, 230); 
-    border-bottom-style: solid; 
- }

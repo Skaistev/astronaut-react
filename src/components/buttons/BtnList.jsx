@@ -1,11 +1,12 @@
 import style from './Btn.module.css'
+import { Btn } from './Btn'
 
 
 export function BtnList (){
     return (
         <div className={style.btnList}>
-            <a className={style.btn} href="#">Go home</a>
-            <a className={style.btn} href="#">Back</a>
+            <Btn title="Go Home"/>
+            <Btn title="Back" look ='green'/>
             </div>
     )
 }

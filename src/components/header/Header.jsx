@@ -1,17 +1,12 @@
 import style from './Header.module.css';
 import img from '../../logo.webp'
+import { NavList } from '../nav/NavList';
 
 function Header (){
     return (
         <header className='container'>
             <img className = {style.logo} src={img} alt="Aha..."></img>
-        <nav class={style.mainNav} >
-            <a className = {`${style.navLink} ${style.active}`} href="#">About</a>
-            <a className = {style.navLink + '' + style.active} href="#">About</a>
-            <a className = {style.navLink} href="#">Porfolio</a>
-            <a className = {style.navLink} href="#">Job</a>
-            <a className = {style.navLink} href="#">Contact</a>
-        </nav>
+            <NavList />
         </header>
     )
 }

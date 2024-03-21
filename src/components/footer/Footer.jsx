@@ -1,15 +1,20 @@
 import style from './Footer.module.css';
-import { FaFontAwesome, FaTwitter } from 'react-icons/fa'
+import { FaTwitterSquare } from 'react-icons/fa'
+import { FaFacebookSquare } from 'react-icons/fa'
+import { FaLinkedin } from 'react-icons/fa'
+import { FaYoutube } from 'react-icons/fa'
+
+
 
 
 function Footer (){
     return (
         <footer className="container">
             <div className={style.social}>
-              <a className={style.socialLink}  href="#" alt="baba">fb</a>
-              <a className={style.socialLink} href="#" alt="baba">tw</a>
-              <a className={style.socialLink} href="#" alt="baba">ln</a>
-              <a className={style.socialLink}  href="#" alt="baba">yt</a>
+              <a className={style.socialLink}  href="#" alt="baba">< FaTwitterSquare  size="2rem"/></a>
+              <a className={style.socialLink} href="#" alt="baba">< FaFacebookSquare/></a>
+              <a className={style.socialLink} href="#" alt="baba">< FaLinkedin /></a>
+              <a className={style.socialLink}  href="#" alt="baba"><FaYoutube/></a>
            </div>
         <p class={style.CopyrightText}> &copy; 2024 - All copy; rights reserved </p>
         
